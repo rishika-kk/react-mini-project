@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+  --red: #e63946; 
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  all: unset;
+  padding: 12px 28px;
+  background: var(--red);
+  height: auto;
+  color: white;          
+  font-weight: 600;      
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #c92c3b; 
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  height: 89px;
+  padding: 0 40px;      
+}
+
+nav .logo img {
+  height: 160px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 64px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: var(--red);
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  gap: 40px;
+  padding: 40px 20px;
+  height: calc(100vh - 72px);
+}
+
+.hero-content {
+display: flex;
+flex-direction: column;
+gap: 36px;
+
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 102px;
+  line-height: 102px;
+
+}
+
+.hero p{
+font-weight: 600;
+color: var(--gray);
+font-size: 24px;
+max-width: 400px;
+
+}
+
+.hero-btn {
+  display: flex;
+  gap:"40px"
+
+}
+
+.secondary-btn{
+background: deeppink;
+
+}
+
+.shopping p{
+font-size: 28px;
+margin-bottom: 8px;
+}
+
+.brand-icons{
+display: flex;
+gap: 64px;
+
+}
